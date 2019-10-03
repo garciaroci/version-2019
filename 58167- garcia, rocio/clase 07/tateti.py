@@ -32,5 +32,5 @@ while not win(tablero) and not full(tablero):
         gano=win(tablero)
         if gano:
             print("gano o")
-if full(tablero) or not win(tablero):
+if full(tablero) and not win(tablero):
     print("nadie gano")
